@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "serve",
-    "build": "rm -rf build && mkdir build && cp website/* build/"
+    "build": "rm -rf build && mkdir build && cp -r website/* build/"
   },
   "author": "",
   "license": "ISC",
