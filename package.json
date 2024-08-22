@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "serve",
     "build": "rm -rf build && mkdir build && cp website/* build/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.3",
+    "vite": "^5.4.2"
+  }
 }

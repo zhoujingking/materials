@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colors</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="./favicon.svg">
+</head>
+
+<body>
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+  <div id="app"></div>
+  <script type="module">
+    import { createApp, ref } from 'vue'
+    import ColorApp from './apps/ColorApp.js'
+    
+    const app = createApp(ColorApp);
+    app.mount('#app');
+  </script>
+</body>
+
+</html>
