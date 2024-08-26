@@ -3,7 +3,7 @@ import TextBlock from '../component/TextBlock.js'
 export default {
   setup() {
     const colors = [
-      '#34dd65', '#425cec', '#ff4a9e', '#f6f6f7'
+      '#34dd65', '#425cec', '#ff4a9e', '#f6f6f7', '#ff5c35'
     ];
     const textColors = [
       '#000000D8', '#000000A5', '#00000072', '#4007a2', '#3776ff', '#4b84ff', '#6d7c90'
